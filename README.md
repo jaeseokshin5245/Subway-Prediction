@@ -49,38 +49,15 @@ But, due to the limitation of the dataset, delay or cancel by natural factors mi
 + Pandas
 + Jupyter Notebook
 
-### 🖥️ 설치 / Installing
-
-#### ⚠️ 설치 시 유의 사항 / Note during Installing
-+ [pip](https://pypi.org/project/pip/, "pip")가 먼저 설치되어 있어야 함.
-+ [pip](https://pypi.org/project/pip/, "pip") should be installed in advance.
-
-1.  Numpy
-```cmd
-pip install numpy
-```
-3. Matplotlib
-```cmd
-pip install matplotlib
-```
-5. Pandas
-```cmd
-pip install pandas
-```
-7. Python
-```cmd
-pip install numpy
-```
-
 ## 🏁 프로젝트 실행 / Project Execution
-### 📣 실행 시작 / Start Execution
+### 📣 실행 시작 / Start Execution 
+#### ipynb 파일 실행 시 / Running ipynb format
 1. aaaa
 2. bbbb
 3. cccc
-3-1. ccccc
-3-2. ccccc
 4. ddddd
-
+5. eeee
+#### py 파일 실행 시 
 ### 🔍 프로젝트 기능 / Function of Project
 #### 출발 시각 예측 / Prediction of the departure time
 
