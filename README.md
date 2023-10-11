@@ -7,29 +7,19 @@
 
 기존에는 각 역별 시간표와 지도 어플리케이션이 제공하는 가장 가까운 지하철까지의 남은 도착 시간 알림만 제공. 
 
-
 또한, 서울에 비해 대전은 각 차량별 혼잡도가 역 내 또는 지도 어플리케이션에서 제공되지 않고 있음.
-
 
 따라서, 목적지역까지의 소요시간과 혼잡도를 고려해 출발역에서의 적절한 탑승 시각을 알게 함
 
-
 다만, 학습 데이터의 한계, 천재지변이나 교통량에 따른 승하차 인원의 변동으로 값이 부정확해질 수 있음.
 
-기본적으로는, 경사하강법을 이용해 목적지역까지의 혼잡도와 소요시간을 고려한 출발지역의 최적 탑승 시각을 제공
+This is a notification program which informs subway department times considering lead time and congestion to arrvie destination station with gradient descent method using Daejeon subway dataset
 
----
+Currently, we could get timetable of the each station and remaining time of incoming subway from the mobile map application.
 
- This is a AAA BBB to CCC DDD EEE by FFF GGG refered HHH
+So, This will let user know the getting on time considering cogestion and lead time to the destination station from the departure station.
 
- Previously, III was occuring KKK problem by JJJ. But, I(We) solved this problem as NNN by using MMM of LLL. 
- 
- From this, solving PPP in OOO is now possible and can be helped with QQQ or RRR·
- 
- However, this method can cause ABC or DEF problems from ZZZ of XXX due to YYYtical defect.
- 
- Basically, This is NNN with using MMM of LLL through SSS become TTT with PPP become UUU
-
+But, due to the limitation of the dataset, delay or cancel by natural factors might make consequences incorrect.
 
 ### ⏲️ 개발 기간 / Develop Period
 + 2023년 4월 6일 ~ 2023년 6월 8일 (약 2개월) / April 6th, 2023 ~ June 8th, 2023 (nearly 2 months)
@@ -38,26 +28,26 @@
 
 #### 사용 언어 / Language
 
-+ <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white">
++ 파이썬 / Python 
 
 #### 프로그래밍 환경 / Programming Enviornment
-+ <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=Jupyter&logoColor=white"> : 각 함수별 계산 결과를 보기 위해 사용 / To see the result of functions seperately
++ 주피터 노트북 Jupyter Notebook : 각 함수별 계산 결과를 보기 위해 사용. To see the result of functions seperately.
 
-+ <img src="https://img.shields.io/badge/visualstudiocode-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white"> : 
++ 비주얼 스튜디오 코드 Visual Studio Code : 개발을 위한 통합 개발 환경으로 사용. Used as IDE for development.
   
 #### AI model
- 경사하강법 :  
++ 경사하강법 Gradient Descent Method : 최적 출발 시각 계산을 위한 함수로 사용 Used as function to calculate the optimal departure time.
 
 ### 📤 버전별 업데이트 / Versioning
 
-0.1.0 : 최초 업데이트 / Initial Update (2023-10-7)
++ 0.1.0 : 최초 업데이트 / Initial Update (2023-10-7)
 
 ## 🔌 프로젝트 설치 /  Installation
 ### 🏗️ 필요 조건 및 환경 / Prerequisites & Enviornment
-+ <img src="https://img.shields.io/badge/numpy-00A3E0?style=for-the-badge&logo=numpy&logoColor=white">  
++ Numpy
 + Matplotlib
-+ <img src="https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white">
-+ <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white">
++ Pandas
++ Jupyter Notebook
 
 ### 🖥️ 설치 / Installing
 
@@ -92,11 +82,9 @@ pip install numpy
 4. ddddd
 
 ### 🔍 프로젝트 기능 / Function of Project
-#### Function 1
-This is function 1
+#### 출발 시각 예측 / Prediction of the departure time
 
-#### Function 2
-This is function 2
+#### 혼잡도 추정 / Estimation of the Congestion
 
 ## 📝 테스트 과정 및 결과 / Running Test & Result
 ### 🏕️ 테스트 환경 / Test Enviornment
@@ -112,9 +100,10 @@ This is function 2
 + VS Code : v1.83.0
 
 #### 📌 (하이퍼) 파라미터 설정 / (Hyper) Parameter Setting
-+ 학습 횟수 / Epoch : 800
 
-+ 학습률 / Learning Rate : 5e-4 (0.005)
++ 학습 횟수 Epoch : 800
+
++ 학습률 Learning Rate : 5e-4 (0.005)
 
 ### 📐 테스트 평가 지표 / Index of test Evaluation 
 
