@@ -1,6 +1,6 @@
 
 # 📛 도착시간과 혼잡도를 고려한 대전 지하철 출발 시간 예측 / Daejeon Subway Departure Time Prediction Considering Arrival Time & Congestion
-경사하강법을 활용한 대전 지하철 출발 시간 예측
+경사하강법을 활용한 대전 지하철 출발 시간 예측.  
 This is a Prediction of Daejeon Subway Departure Time using Gradient Descent 
 
 ## 🧾 프로젝트 소개 / Project Description
