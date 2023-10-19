@@ -39,25 +39,25 @@ Jupyter Notebook : To see the result of functions seperately.
 + 비주얼 스튜디오 코드 : 개발을 위한 통합 개발 환경으로 사용.  
 Visual Studio Code : Used as IDE for development.
   
-#### AI model
+#### 기계 학습 방법 / Machine Learning Method
 + 경사하강법: 최적 출발 시각 계산을 위한 함수로 사용.  
 Gradient Descent Method : Used as function to calculate the optimal departure time.
 
 ### 📤 버전별 업데이트 / Versioning
 
 + 0.1.0 : 최초 업데이트 Initial Update (2023-07-23)
-
++ 0.1.1 : 코드 간소화 및 기능별 분리 Simplify Code & Seperate by Function (2023-12-??)
++ 0.2.0 : GUI 구현 버그 수정 Implement GUI & Bug Fixed (2024-01-??)
 ## 🔌 프로젝트 설치 /  Installation
 ### 🏗️ 필요 조건 및 환경 / Prerequisites & Enviornment
 + Numpy
 + Matplotlib
 + Pandas
-+ Jupyter Notebook
-
++ Jupyter Notebook  
 ## 🏁 프로젝트 실행 / Project Execution
 ### 📣 실행 시작 / Start Execution 
 #### ipynb 파일 실행 시 / Running ipynb file
-1. aaaa
+1. 
 2. bbbb
 3. cccc
 4. ddddd
@@ -86,6 +86,8 @@ Gradient Descent Method : Used as function to calculate the optimal departure ti
 + 학습 횟수 Epoch : 800
 
 + 학습률 Learning Rate : 5e-4 (0.005)
+
++ 조기 종료 시점 Early Stopping Point : error > 0.001
 
 ### 📐 테스트 평가 지표 / Index of test Evaluation 
 
